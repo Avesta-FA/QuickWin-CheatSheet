@@ -13,22 +13,5 @@ While there will be a lot of quick wins I will also add useful detection techniq
 
 
 
-## Network
-
-
-
-
-
-
-
-
-
-
-
-
-## Endpoint
-
-
-
 
 
