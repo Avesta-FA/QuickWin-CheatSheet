@@ -4,7 +4,10 @@ While there will be a lot of quick wins I will also add detection techniques tha
 
 ## General
 
-
+### Long tail analysis
+Long tail analysis is a multi purpose detection technique that works on historical data. The output contains two important sections:  
+* Least frequently used (LFU)
+* Most frequently used (MFU)
 
 
 
