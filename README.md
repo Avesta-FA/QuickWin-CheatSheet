@@ -29,7 +29,7 @@ A great tool that utilizes this technique is called [Kansa](https://github.com/d
 
 
 
-### Fuzzy searching 
+### Fuzzy Searching 
 A fuzzy search is a technique that uses search algorithms to find strings that match patterns approximately.  
 This technique is especially useful when looking for phishing domains targeting your organization.  
 
