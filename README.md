@@ -40,7 +40,7 @@ Different SIEMs also have fuzzy matching that allows you to detect phishing doma
 
 
 
-### Null DNS Record
+### DNS Null Record
 While all DNS record types can be used for malicious behavior the Null type is almost always an indicator of anomalous behavior and should be alerted on.  
 
 
