@@ -53,7 +53,7 @@ This tool calculates the randomness of the data given, a low number means that t
 
 
 
-### comparative Analysis
+### Comparative Analysis
 If baseline configuration is implemented you can always compare network and endpoint data to detect anomalies.  
 On a day to day basis similar systems should always behave similarly.  
 
