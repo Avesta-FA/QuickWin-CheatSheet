@@ -46,4 +46,27 @@ While all DNS record types can be used for malicious behavior the Null type is a
 
 
 
+### Frequency analysis
+One of the ways adversaries try to evade prevention and detection is by using random values. This can be used for network and endpoint data, but how would we detect these?  
+I present [freq](https://github.com/MarkBaggett/freq) made by MarkBagget, SANS instructor.  
+This tool calculates the randomness of the data given, a low number means that the data is random.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
