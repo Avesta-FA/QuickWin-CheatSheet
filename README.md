@@ -47,16 +47,25 @@ While all DNS record types can be used for malicious behavior the Null type is a
 
 
 ### Frequency Analysis
-One of the ways adversaries try to evade prevention and detection is by using random values. This can be used for network and endpoint data, but how would we detect these?  
+One of the ways adversaries try to evade prevention and detection is by using random values, this can be used for network and endpoint data, but how would we detect these?  
 I present [freq](https://github.com/MarkBaggett/freq) made by MarkBagget, SANS instructor.  
 This tool calculates the randomness of the data given, a low number means that the data is random.  
 
 
 
+### comparative Analysis
+If baseline configuration is implemented you can always compare network and endpoint data to detect anomalies.  
+On a day to day basis similar systems should always behave similarly.  
+
+
+
 ### Netflow Analysis
-
-
-
+Some might think that netflow is just network metadata and can't be used to detect malicious activity.  
+Here are some ways you can use netflow to detect adversaries:  
+* Upload to download ratio  
+  - During normal operations most of the time it's anomalous to have more uploads compared to downloads.  
+* Number of connections
+  - This one should be compared by other similar systems simply because you don't know how many connections those systems make on a daily basis
 
 
 
