@@ -36,3 +36,14 @@ This technique is especially useful when looking for phishing domains targeting 
 #### How To  
 [dnstwist](https://github.com/elceef/dnstwist) can help you generate this type of information.  
 Different SIEMs also have fuzzy matching that allows you to detect phishing domains in real-time.  
+
+
+
+
+### Null DNS Record
+While all DNS record types can be used for malicious behavior the Null type is almost always indicator of anomalous behavior and should be alerted on.  
+
+
+
+
+
