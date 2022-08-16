@@ -2,6 +2,7 @@
 The purpose of this repository is to be a cheat sheet for the security community to find and detect adversaries.  
 While there will be a lot of quick wins I will also add detection techniques that require more analysis.  
 
+## High Level
 
 ### Long Tail Analysis
 Long tail analysis is a multi purpose detection technique that works on historical data. The output contains two important sections:  
@@ -39,13 +40,6 @@ Different SIEMs also have fuzzy matching that allows you to detect phishing doma
 
 
 
-
-### DNS Null Record
-While all DNS record types can be used for malicious behavior the Null type is almost always an indicator of anomalous behavior and should be alerted on.  
-
-
-
-
 ### Frequency Analysis
 One of the ways adversaries try to evade prevention and detection is by using random values, this can be used for network and endpoint data, but how would we detect these?  
 I present [freq](https://github.com/MarkBaggett/freq) made by MarkBagget, SANS instructor.  
@@ -71,8 +65,10 @@ Here are some ways you can use netflow to detect adversaries:
 
 
 
+## Low Level
 
-
+### DNS Null Record
+While all DNS record types can be used for malicious behavior the Null type is almost always an indicator of anomalous behavior and should be alerted on.  
 
 
 
