@@ -66,9 +66,8 @@ Here are some ways you can use netflow to detect adversaries:
   - During normal operations most of the time it's anomalous to have more uploads compared to downloads.  
 * Number of connections
   - This one should be compared by other similar systems simply because you don't know how many connections those systems make on a daily basis
-
-
-
+* Long duration time
+  - Any connection that has been up for several hours should be investigated 
 
 
 
