@@ -71,5 +71,9 @@ Here are some ways you can use netflow to detect adversaries:
 While all DNS record types can be used for malicious behavior the Null type is almost always an indicator of anomalous behavior and should be alerted on.  
 
 
-
-
+### WMI
+Windows Management Instrumentation gives adversaries two options to use it:
+* WMIC
+  -
+* WMI Event Consumer & Filter binding 
+  -
