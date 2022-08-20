@@ -74,6 +74,6 @@ While all DNS record types can be used for malicious behavior the Null type is a
 ### WMI
 Windows Management Instrumentation gives adversaries two options to use it:
 * WMIC
-  -
-* WMI Event Consumer & Filter binding 
+  - This options allows adversaries to run WMI on the command line
+* WMI Event Consumer & Filter Binding 
   -
