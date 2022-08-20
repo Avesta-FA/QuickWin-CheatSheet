@@ -80,7 +80,7 @@ Windows Management Instrumentation gives adversaries two options to use it:
 
 #### How To
 There are various ways to detect WMI activity:
-* Event Logs
+* Event Logs 5857-5861
 * Autoruns
 * Get-WmiObject
 
