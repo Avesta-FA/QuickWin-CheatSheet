@@ -76,4 +76,4 @@ Windows Management Instrumentation gives adversaries two options to use it:
 * WMIC
   - This options allows adversaries to run WMI on the command line
 * WMI Event Consumer & Filter Binding 
-  -
+  - An Event Consumer allows an adversary to run their script or process of choosing, these consumers are binded to filters that allow them to run
