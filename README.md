@@ -83,6 +83,7 @@ There are various ways to detect WMI activity:
 * Event Logs 5857-5861
 * Autoruns
 * Get-WmiObject
+* Get-CimInstance
 
 
 
