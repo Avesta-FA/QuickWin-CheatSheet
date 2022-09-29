@@ -65,11 +65,12 @@ Here are some ways you can use netflow to detect adversaries:
 
 
 
-## Low Level
 
-### DNS Null Record
-While all DNS record types can be used for malicious behavior the Null type is almost always an indicator of anomalous behavior and should be alerted on.  
-
+### DNS
+Use long tail analysis to find most frequently seen DNS names.  
+DNS name length is generally short 20+ character DNS names should be investigated, this can also be detected using frequency analysis.  
+#### DNS Null Record
+While all DNS record types can be used for malicious behavior the Null type is almost always an indicator of anomalous behavior and should be alerted on. 
 
 ### WMI
 Windows Management Instrumentation gives adversaries two options to use it:
